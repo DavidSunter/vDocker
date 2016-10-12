@@ -13,7 +13,8 @@ Vagrant.configure("2") do |config|
     docker.vm.synced_folder "sync", "/home/vagrant/sync"
     docker.vm.synced_folder "Project", "/home/vagrant/Project"
 
-    docker.vm.provision "shell", path: "shell/docker.sh"
+    docker.vm.provision "shell", path: "shell/dockeronly.sh"
+    docker.vm.provision "shell", path: "shell/chefonly.sh"
   end
   config.vm.provider "virtualbox" do |v|
     v.memory = 2048
