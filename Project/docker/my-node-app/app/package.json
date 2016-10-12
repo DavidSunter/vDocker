@@ -1,0 +1,25 @@
+{
+  "name": "pokergamefe",
+  "version": "1.0.0",
+  "description": "poker game front end",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronC17/PokerGameFE.git"
+  },
+  "author": "Laura and Josh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronC17/PokerGameFE/issues"
+  },
+  "homepage": "https://github.com/CameronC17/PokerGameFE#readme"
+}

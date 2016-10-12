@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/game.css">
+    <title> Poker Game</title>
+  </head>
+  <body>
+    <nav  class="navbar">
+      <div id="logo">
+            <h1>Poker</h1>
+      </div>
+
+      <div id="links">
+        <a class="button" id="homepage" href="/">Home</a>
+        <a class="button" id="registerpage" href="register.html">Register</a>
+        <a class="button" id="loginpage" href="login.html">Login</a>
+        <a class="button" id="gamepage" href="game.html">Game</a>
+      </div>
+    </nav>
+
+
+    <h1>The game</h1>
+<div class= "game">
+    <div class="wallet">
+    <input type="text" name="wallet" placeholder="Wallet" readonly><br>
+    </div>
+
+
+    <div class="table"><br>
+      <div class="card">
+        <p class="suit">&#9824;</p>
+        <p class="cardtype">1</p>
+        <p class="upsidedown suit">&#9824;</p>
+      </div><br>
+      <div class="card">
+        <p class="suit">&#9829;</p>
+        <p class="cardtype">Q</p>
+        <p class="upsidedown suit">&#9829;</p>
+
+    <div class="table">
+      <div class="card">
+        <p>&#9824;</p>
+      </div>
+    </div>
+
+    <div class="gamecontent">
+        <label for="stake">Stake:</label><br>
+        <input id="option1" type="button" name="stake" value="100"> edds<br>
+        <input id="option2" type="button" name="stake" value="50"> edds<br>
+        <input id="option3" type="button" name="stake" value="20"> edds<br>
+    <input  id="stake" type="number" name="stake" placeholder="Stake" required><br>
+    <button type="button">Check</button>
+    <button type="button">Fold</button>
+    <button type="button">Raise</button>
+    <button type="button">Call</button>
+ </div>
+ </div>
+  </body>
+</html>

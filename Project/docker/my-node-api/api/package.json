@@ -1,0 +1,31 @@
+{
+  "name": "pokergameapi",
+  "version": "1.0.0",
+  "description": "Creating a poker game using NodeJS, non socket.io style-y.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "method-override": "^2.3.6",
+    "mocha": "^3.0.2",
+    "mongoose": "^4.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronC17/PokerGameAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronC17/PokerGameAPI/issues"
+  },
+  "homepage": "https://github.com/CameronC17/PokerGameAPI#readme"
+}

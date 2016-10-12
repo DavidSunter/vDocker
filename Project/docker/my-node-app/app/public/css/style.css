@@ -1,0 +1,172 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+html, body {
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    height: 100%;
+}
+
+.message {
+    color: red;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.home-content {
+    width: 80%;
+    margin-top: 25px;
+    margin: 0 auto;
+}
+
+.home-content * {
+    padding-top: 10px;
+}
+
+.form-content {
+    text-align: center;
+}
+
+.loginform {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin-top: 5em;
+    margin-left: 31em;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.registerform {
+    margin-top: 5em;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin-top: 5em;
+    margin-left: 31em;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.navbar {
+    text-align: right;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    /*border-bottom: 1px solid black;*/
+    box-sizing: border-box;
+    top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.password {
+    margin-top: 10px;
+    height: 24px;
+    width: 150px;
+}
+
+.username {
+    width: 150px;
+    height: 24px;
+}
+
+#links {
+    padding-top: 16px;
+    height: 50px;
+    width: 360px;
+    float: right;
+    display: inline-block;
+}
+
+#logo {
+    width: 300px;
+    height: 90px;
+    float: left;
+    margin-left: 10px;
+}
+
+#homepageimage{
+  margin-top: -5em;
+  width: 600px;
+  height: 400px;
+  float: right;
+}
+
+#login-button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+#register-button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form-container input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.button {
+    border-radius: 24px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: grey;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+#custom-msg {
+    display: inline-block;
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin-left: 300px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: green;
+}
