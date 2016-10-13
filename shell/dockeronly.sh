@@ -19,4 +19,4 @@ docker-compose -version
 sudo service docker start
 
 #Add the User group
-sudo usermod -aG docker vagrant
+sudo usermod -aG docker ubuntu
