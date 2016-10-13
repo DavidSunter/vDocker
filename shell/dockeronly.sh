@@ -13,8 +13,8 @@ sudo apt-get purge lxc-docker
 apt-cache policy docker-engine
 sudo apt-get install -y docker-engine curl python-pip
 
-curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+sudo curl -L -s https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 docker-compose -version
 sudo service docker start
 
