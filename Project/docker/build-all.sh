@@ -32,10 +32,10 @@ cp -r /tmp/node-db/db/. ./my-node-db/db/
 pushd my-nodejs
 docker build --tag my-nodejs:latest .
 popd
-docker-compose build .
-docker-compose rm -f .
-docker-compose create .
-docker-compose up .
+docker-compose build 
+docker-compose rm -f
+docker-compose create
+docker-compose up
 # pushd my-node-app
 # docker build --tag my-node-app:latest .
 # popd
