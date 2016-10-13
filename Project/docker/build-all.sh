@@ -34,7 +34,7 @@ docker build --tag my-nodejs:latest .
 popd
 docker-compose build
 docker-compose rm -f
-docker-compose up
+docker-compose up -d
 # pushd my-node-app
 # docker build --tag my-node-app:latest .
 # popd
