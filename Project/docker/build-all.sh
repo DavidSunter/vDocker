@@ -19,7 +19,7 @@ mkdir -p /tmp/node-db/db
 
 cp -r ~/Project/app/. /tmp/node-app/app/
 cp -r ~/Project/api/. /tmp/node-api/api/
-cp -r ~/Project/servers/database/. /tmp/node-db/db/
+cp -r ~/Project/database/. /tmp/node-db/db/
 rm -rf /tmp/node-app/app/.git
 rm -rf /tmp/node-app/app/.gitignore
 rm -rf /tmp/node-api/api/.git
