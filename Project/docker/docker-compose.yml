@@ -17,6 +17,8 @@ services:
       - "my-node-api"
     depends_on:
       - "my-node-api"
+    environment:
+      - API_URL=http://192.168.99.100:3001
   my-node-api:
     build: ./my-node-app
     ports:
@@ -25,3 +27,5 @@ services:
       - "my-node-db"
     depends_on:
       - "my-node-db"
+    environment:
+      - DB_URL=mongodb://my-node-db/poker
