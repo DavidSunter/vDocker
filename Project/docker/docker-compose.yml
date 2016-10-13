@@ -19,7 +19,7 @@ services:
       - API_URL=$API_URL
       - PORT=3000
   my-node-api:
-    build: ./my-node-app
+    build: ./my-node-api
     ports:
       - 3001:3001
     links:
