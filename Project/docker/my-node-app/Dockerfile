@@ -5,4 +5,6 @@ ADD app /app
 RUN cd /app && npm install
 CMD ["node", "/app/app.js"]
 
-EXPOSE 3000
+ARG SERVER_PORT_FROM_APP=3000
+ENV SERVER_PORT_FROM_APP ${SERVER_PORT_FROM_APP}
+EXPOSE ${SERVER_PORT_FROM_APP}

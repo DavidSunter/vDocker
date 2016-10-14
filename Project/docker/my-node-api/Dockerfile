@@ -5,4 +5,6 @@ ADD api /api
 RUN cd /api && npm install
 CMD ["node", "/api/app.js"]
 
-EXPOSE 3000
+ARG SERVER_PORT_FROM_API=3000
+ENV SERVER_PORT_FROM_API ${SERVER_PORT_FROM_API}
+EXPOSE ${SERVER_PORT_FROM_API}
